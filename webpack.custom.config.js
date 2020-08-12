@@ -7,7 +7,6 @@ module.exports = async (envs) => {
   const isProduction = !envs.development;
   const watch = !!envs.watch;
 
-  debugger;
   const config = await loadWebpackConfig({
     production: isProduction,
     watch
@@ -16,6 +15,7 @@ module.exports = async (envs) => {
   // define "grafana/**" as non external dep
   config.externals = config.externals.slice(0, config.externals.length - 1);
 
+  // resolve aliases
   config.resolve = {
     ...config.resolve,
     alias: {
