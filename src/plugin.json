@@ -1,21 +1,20 @@
 {
   "type": "panel",
-  "name": "Grafana Panel Plugin Template",
-  "id": "myorgid-simple-panel",
+  "name": "Graph+ Grafana Plugin",
+  "id": "graph-plus-grafana-panel",
 
   "info": {
-    "description": "Grafana Panel Plugin Template",
+    "description": "Graph+ Grafana Plugin",
     "author": {
-      "name": "Your Name"
+      "name": "Ivan Kopeykin <ikopeykin@ozon.ru>"
     },
-    "keywords": ["panel", "template"],
+    "keywords": ["panel", "graph"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
     },
     "links": [
-      {"name": "Website", "url": "https://github.com/grafana/simple-react-panel"},
-      {"name": "License", "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"}
+      {"name": "License", "url": "https://github.com/ozonru/graph-grafana-plugin/blob/master/LICENSE"}
     ],
     "screenshots": [],
     "version": "%VERSION%",
@@ -23,7 +22,7 @@
   },
 
   "dependencies": {
-    "grafanaVersion": "6.3.x",
+    "grafanaVersion": "7.1.x",
     "plugins": []
   }
 }

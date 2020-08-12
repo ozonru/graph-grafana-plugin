@@ -16,6 +16,7 @@
     "email": "plugins@grafana.com"
   },
   "devDependencies": {
+    "grafana": "github:ozonru/grafana",
     "@grafana/data": "7.0.1",
     "@grafana/toolkit": "7.0.1",
     "@grafana/ui": "7.0.1",
